@@ -28,7 +28,7 @@ options:
   logging: CLOUD_LOGGING_ONLY
   
 substitutions:
-    _FUNCTION_PROJECT : STAGING
+    _FUNCTION_PROJECT : staging
     _FUNCTION_NAME    : my-nodejs-app
     _FUNCTION_REGION  : us-central1
     _FUNCTION_RUNTIME : nodejs20
