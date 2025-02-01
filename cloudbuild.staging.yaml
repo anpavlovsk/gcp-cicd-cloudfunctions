@@ -23,7 +23,10 @@ steps:
   - --project=$_FUNCTION_PROJECT
   - --entry-point=$_ENTRY_POINT
   id: DEPLOY
-
+  
+options:
+  logging: NONE
+  
 substitutions:
     _FUNCTION_PROJECT : astahov-staging
     _FUNCTION_NAME    : my-nodejs-app
